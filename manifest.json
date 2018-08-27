@@ -6,14 +6,14 @@
   "author": "cdrainxv",
   "version": "1.0.0",
   "icons": {
-    "16": "images/",
-    "32": "images/",
-    "48": "images/",
-    "132": "images/"
+    "16": "images/playlist_16.png",
+    "32": "images/playlist_32.png",
+    "64": "images/playlist_64.png",
+    "132": "images/playlist_128.png"
   },
   "browser_action": {
     "default_title": "Youtube Playlist Re-order",
-    "default_icon": "images/"
+    "default_icon": "images/playlist_128.png"
   },
   "content_scripts": [
     {

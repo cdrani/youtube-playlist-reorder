@@ -19,9 +19,10 @@
     {
       "matches": [
         "https://www.youtube.com/playlist?list=*",
-        "https://www.youtube.com/watch?v=*&index=7&list=*"
+        "https://www.youtube.com/watch?v=*&index=*&list=*"
       ],
-      "js": ["js/youtube.js"]
+      "js": ["js/youtube.js"],
+      "run_at": "document_end"
     }
   ],
   "permissions": ["https://www.youtube.com/*"]

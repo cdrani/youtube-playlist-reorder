@@ -1,0 +1,28 @@
+{
+  "mainifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "default_locale": "en",
+  "author": "cdrainxv",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/",
+    "32": "images/",
+    "48": "images/",
+    "132": "images/"
+  },
+  "browser_action": {
+    "default_title": "Youtube Playlist Re-order",
+    "default_icon": "images/"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/playlist?list=*",
+        "https://www.youtube.com/watch?v=*&index=7&list=*"
+      ],
+      "js": ["js/youtube.js"]
+    }
+  ],
+  "permissions": ["https://www.youtube.com/*"]
+}

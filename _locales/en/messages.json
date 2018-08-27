@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Youtube Playlist Re-order",
+    "description": "Reorder Playlist top to bottom and vice versa"
+  },
+  "extDesc": {
+    "message": "Freedom to arrange playlist from top or bottom",
+    "description": "More freedom in playlist"
+  }
+}
